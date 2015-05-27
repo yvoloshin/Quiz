@@ -1,5 +1,7 @@
 class QuizController < ApplicationController
 
-	def index
-	end
+def index
+  @emails=Email.all
+end
+
 end
